@@ -16,11 +16,7 @@ createUserWithEmailAndPassword(auth, email, password)
 .then(async(userCredential) => {
 if(fname.length <= 3||lname==''||password==''||email==''||rpass==''){
 
-        // Swal.fire({
-        //     icon: 'error',
-        //     title: 'please fill this form',
-        //     text: 'Something went wrong!',
-        //   })
+      
         alert("please maninum 3 value")
           
     }
